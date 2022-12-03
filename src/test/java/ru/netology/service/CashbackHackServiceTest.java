@@ -11,7 +11,7 @@ public class CashbackHackServiceTest {
         int actual = cash.remain(750);
         int expected = 250;
 
-        org.junit.Assert.assertEquals(actual, expected);
+        org.junit.Assert.assertEquals(expected, actual);
 
     }
 
@@ -22,7 +22,7 @@ public class CashbackHackServiceTest {
         int actual = cash.remain(1650);
         int expected = 350;
 
-        org.junit.Assert.assertEquals(actual, expected);
+        org.junit.Assert.assertEquals(expected, actual);
 
     }
 
@@ -33,7 +33,7 @@ public class CashbackHackServiceTest {
         int actual = cash.remain(1000);
         int expected = 0;
 
-        org.junit.Assert.assertEquals(actual, expected);
+        org.junit.Assert.assertEquals(expected, actual);
 
     }
 }
